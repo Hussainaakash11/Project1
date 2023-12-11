@@ -1,0 +1,54 @@
+body {
+    background: url("hii2.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+button {
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 65%;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.7s;
+}
+b{
+   
+    margin-left: 120px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+    border-radius: 22px;
+}
+
+.selectyrs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.selectyr {
+    margin-bottom: 50px;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1PX SOLID BLACK;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 1.5);
+    overflow: hidden;
+}
